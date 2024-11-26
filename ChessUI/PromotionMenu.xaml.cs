@@ -38,7 +38,7 @@ namespace ChessUI
             PieceSelected?.Invoke(PieceType.Queen);
         }
 
-        private void Bishop_MouseDown(object sender, MouseButtonEventArgs e) 
+        private void BishopImg_MouseDown(object sender, MouseButtonEventArgs e) 
         {
             PieceSelected?.Invoke(PieceType.Bishop);
         }
@@ -48,7 +48,7 @@ namespace ChessUI
             PieceSelected?.Invoke(PieceType.Rook);
         }
 
-        private void Knight_MouseDown(object sender, MouseButtonEventArgs e)
+        private void KnightImg_MouseDown(object sender, MouseButtonEventArgs e)
         {
             PieceSelected?.Invoke(PieceType.Knight);
         }

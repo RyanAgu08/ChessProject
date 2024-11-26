@@ -28,7 +28,7 @@
                        Source="Assets/QueenW.png"/>
 
                 <Image x:Name="BishopImg"
-                       MouseDown="Bishop_MouseDown"
+                       MouseDown="BishopImg_MouseDown"
                        Source="Assets/BishopW.png"/>
 
                 <Image x:Name="RookImg"
@@ -36,7 +36,7 @@
                        Source="Assets/RookW.png"/>
 
                 <Image x:Name="KnightImg"
-                       MouseDown="Knight_MouseDown"
+                       MouseDown="KnightImg_MouseDown"
                        Source="Assets/KnightW.png"/>
             </UniformGrid>
         </Grid>
