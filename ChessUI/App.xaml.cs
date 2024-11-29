@@ -1,6 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 
 namespace ChessUI
 {
@@ -9,6 +7,13 @@ namespace ChessUI
     /// </summary>
     public partial class App : Application
     {
-    }
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
 
+            // Show the Login Window as the first screen
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+        }
+    }
 }
